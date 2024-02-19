@@ -152,14 +152,35 @@ Copy the Notepad on the VM and paste it into a Notepad on the Host PC:  <br/>
 <img src="https://i.imgur.com/v38roHM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Save the Notepad on the Host PC to desktop:  <br/>
+Save the Notepad on the Host PC to the desktop:  <br/>
 <img src="https://i.imgur.com/sZdcjnL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Save the Notepad on the Host PC to desktop:  <br/>
-<img src="https://i.imgur.com/sZdcjnL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Create a custom log from the notepad note on the Host PC and route it from the log on the VM:  <br/>
+<img src="https://i.imgur.com/xPA6sWm.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/bmCgzQN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Copy and paste the "Query_Log_Organizer" and run:  <br/>
+<img src="https://i.imgur.com/CUIfxcV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Open MS Sentinel and Create a new workbook:  <br/>
+<img src="https://i.imgur.com/1jUOPkE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Add a new query and run "Query_Log_Organizer":  <br/>
+<img src="https://i.imgur.com/FXH9DVk.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Yug7svW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Now wait 24 hours for attackers to attempt to brute force access the VM:  <br/>
+<img src="https://i.imgur.com/FXH9DVk.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 </p>
 
 <!--
