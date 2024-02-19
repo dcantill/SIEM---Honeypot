@@ -1,25 +1,23 @@
 <h1>SIEM - Honeypot</h1>
 
 <h2>Description</h2>
-The project consists of configuring a virtual machine within Microsoft Azure to act as a honeypot to observe live RDP brute-force attacks from around the world. A custom PowerShell script collects Windows Event Viewer Log data of failed login attempts to the virtual machine from attackers and maps out their geographical data using a third-party API data collection tool. 
-
-a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The project entails setting up a virtual machine on Microsoft Azure to function as a honeypot, monitoring real-time RDP brute-force attacks globally. A tailored PowerShell script is used to gather and sift through Windows Event Viewer logs, identifying failed login attempts to the virtual machine by attackers and then utilizing a third-party API data collection tool to plot their geographic locations.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-+ <b>PowerShell ISE:</b> to </b> 
++ <b>Microsoft Sentinel:</b> to create the honeypot</b>
++ <b>PowerShell ISE:</b> to filter out failed RDP events from Windows Event Viewer 
 + <b>Remote Desktop Connection:</b> to establish a connection to the virtual machine</b>
-+ <b>Microsoft Sentinel:</b> to create honeypot</b>
-+ <b>IP Geolocation API:</b> to track API geo data</b>
-+ <b>Event Viewer</b>
-+ <b>Windows Defender Firewall: to open up the virtual machine to brute force attacks</b>
++ <b>IP Geolocation API Key:</b> to track API geographical data
++ <b>Event Viewer:</b> to collect all system events on virtual machine
++ <b>Windows Defender Firewall:</b>  to expose the virtual machine to brute force attacks</b>
 
 <h2>Environments Used </h2>
 
 - <b>(RDP) Windows 10 Pro</b> (22H2)
-- <b>Windows 11 Pro</b> (23H2)
+- <b>(Host) Windows 11 Pro</b> (23H2)
 
 <h2>Project Walk-Through:</h2>
 
