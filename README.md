@@ -16,7 +16,7 @@ The project entails setting up a virtual machine on Microsoft Azure to function 
 
 <h2>Environments Used </h2>
 
-- <b>(RDP) Windows 10 Pro</b> (22H2)
+- <b>(VM) Windows 10 Pro</b> (22H2)
 - <b>(Host) Windows 11 Pro</b> (23H2)
 
 <h2>Project Walk-Through:</h2>
