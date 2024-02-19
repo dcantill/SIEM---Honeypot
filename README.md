@@ -1,18 +1,17 @@
-<h1>SIEM - Honeypot</h1>
+<h1>SIEM - Honeypot 🍯</h1>
 
 <h2>Description</h2>
 The project entails setting up a virtual machine on Microsoft Azure to function as a honeypot, monitoring real-time RDP brute-force attacks globally. A tailored PowerShell script is used to gather and sift through Windows Event Viewer logs, identifying failed login attempts to the virtual machine by attackers and then utilizing a third-party API data collection tool to plot their geographic locations.
 <br />
 
+## Tools and Technologies Utilized:
 
-<h2>Languages and Utilities Used</h2>
-
-+ <b>Microsoft Sentinel:</b> to create the honeypot</b>
-+ <b>PowerShell ISE:</b> to filter out failed RDP events from Windows Event Viewer 
-+ <b>Remote Desktop Connection:</b> to establish a connection to the virtual machine</b>
-+ <b>IP Geolocation API Key:</b> to track API geographical data
-+ <b>Event Viewer:</b> to collect all system events on virtual machine
-+ <b>Windows Defender Firewall:</b>  to expose the virtual machine to brute force attacks</b>
+1. **Microsoft Sentinel:** Deployed for creating and managing the honeypot environment.
+2. **PowerShell ISE:** Employed to meticulously sift through Windows Event Viewer logs, isolating failed RDP events.
+3. **Remote Desktop Connection:** Utilized to establish a secure connection with the virtual machine.
+4. **IP Geolocation API Key:** Integrated for tracking and analyzing geographical data via API.
+5. **Event Viewer:** Utilized to comprehensively collect system events occurring on the virtual machine.
+6. **Windows Defender Firewall:** Configured to expose the virtual machine to simulated brute force attacks, enhancing security testing.
 
 <h2>Environments Used </h2>
 
