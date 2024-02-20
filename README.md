@@ -18,6 +18,12 @@ The project entails setting up a virtual machine on Microsoft Azure to function 
 - <b>(VM) Windows 10 Pro</b> (22H2)
 - <b>(Host) Windows 11 Pro</b> (23H2)
 
+<h2>Key Takeways 📝</h2>
+
+- <b>Running a honeypot on a virtual machine allows for isolation from the rest of the network, minimizing the risk of compromising other systems if the honeypot is breached.
+- <b>Running the honeypot exposed me to a diverse array of attacker tactics, granting me invaluable insights into their behaviors, motivations, and techniques for breaching systems.
+- <b>Building the honeypot required a multifaceted skill set encompassing networking, system administration, scripting, and data analysis. This journey significantly enhanced my proficiency in these areas.
+
 <h2>Project Walk-Through 🚶:</h2>
 
 <p align="center">
@@ -174,12 +180,14 @@ Add a new query and run "Query_Log_Organizer":  <br/>
 <img src="https://i.imgur.com/Yug7svW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Now wait 24 hours for attackers to attempt to brute force access the VM:  <br/>
-<img src="https://i.imgur.com/FXH9DVk.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
+Now wait a few hours for attackers to attempt to brute force login to the VM:  <br/>
+<img src="https://i.imgur.com/qRSEf7q.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/WhHVJRs.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/DrAGkKD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
-</p>
 
 <!--
  ```diff
